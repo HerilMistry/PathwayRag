@@ -1,0 +1,33 @@
+[
+  {
+    "product_id": "PROD001",
+    "name": "UltraBook Pro 15",
+    "category": "Electronics",
+    "price": 1299.99,
+    "in_stock": true,
+    "description": "15-inch laptop with Intel i7 processor, 16GB RAM, 512GB SSD. Perfect for professionals and creators.",
+    "features": ["Intel i7 12th Gen", "16GB DDR4 RAM", "512GB NVMe SSD", "15.6 Full HD Display"],
+    "warranty": "2 years"
+  },
+  {
+    "product_id": "PROD002",
+    "name": "Wireless Ergonomic Mouse",
+    "category": "Accessories",
+    "price": 39.99,
+    "in_stock": true,
+    "description": "Comfortable ergonomic design with 6 programmable buttons and 3200 DPI sensor.",
+    "features": ["Wireless 2.4GHz", "3200 DPI adjustable", "6 buttons"],
+    "warranty": "1 year"
+  },
+  {
+    "product_id": "PROD003",
+    "name": "Premium Noise-Canceling Headphones",
+    "category": "Audio",
+    "price": 299.99,
+    "in_stock": false,
+    "restock_date": "2025-10-25",
+    "description": "Industry-leading noise cancellation with 30-hour battery life.",
+    "features": ["Active Noise Cancellation", "30-hour battery", "Bluetooth 5.0"],
+    "warranty": "2 years"
+  }
+]

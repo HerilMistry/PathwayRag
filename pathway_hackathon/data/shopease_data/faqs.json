@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is your return policy?",
+    "answer": "We offer a 30-day return policy for most items. Products must be unused and in original packaging. Refunds are processed within 5-7 business days after we receive the returned item.",
+    "category": "returns"
+  },
+  {
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping takes 5-7 business days. Express shipping (2-3 days) and overnight shipping are available at checkout. Free shipping on orders over $50.",
+    "category": "shipping"
+  },
+  {
+    "question": "How can I track my order?",
+    "answer": "Once your order ships, you'll receive an email with a tracking number. You can also track your order by logging into your account and viewing order history.",
+    "category": "order_tracking"
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, Mastercard, Amex, Discover), PayPal, Apple Pay, Google Pay, and Shop Pay. Payment is processed securely through Stripe.",
+    "category": "payment"
+  },
+  {
+    "question": "Can I modify or cancel my order?",
+    "answer": "You can modify or cancel your order within 1 hour of placing it. After that, the order enters our fulfillment process. Contact support immediately if you need changes.",
+    "category": "order_management"
+  },
+  {
+    "question": "What is your warranty policy?",
+    "answer": "All electronics come with a 1-year manufacturer warranty. Extended warranties are available for purchase. Defective items can be replaced or refunded within the warranty period.",
+    "category": "warranty"
+  }
+]

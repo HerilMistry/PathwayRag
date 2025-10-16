@@ -1,0 +1,6 @@
+curl --location 'http://localhost:8000/v2/answer' \
+--header 'accept: */*' \
+--header 'Content-Type: application/json' \
+--data '{
+    "prompt": "Give me highlights of Q3 Financial Summay"
+}'

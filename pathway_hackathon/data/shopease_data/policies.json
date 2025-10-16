@@ -1,0 +1,14 @@
+[
+  {
+    "policy_type": "refund",
+    "title": "Refund Processing Policy",
+    "content": "Refunds are processed within 5-7 business days of receiving the returned item. The refund will be credited to your original payment method. Shipping costs are non-refundable except in cases of defective products.",
+    "effective_date": "2024-01-01"
+  },
+  {
+    "policy_type": "damaged_items",
+    "title": "Damaged or Defective Items",
+    "content": "If you receive a damaged or defective item, please contact us within 48 hours with photos. We will arrange a free return shipping label and either send a replacement or issue a full refund.",
+    "effective_date": "2024-01-01"
+  }
+]
