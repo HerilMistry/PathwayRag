@@ -3,21 +3,21 @@
 import os
 from dotenv import load_dotenv
 from crewai import Crew, Process
-from langchain_openai import ChatOpenAI
+from integrations.mistral_client import MistralLLM, retrieve_knowledge
 
 from intent_classifier.model import IntentClassifier, Intent
 from tools.shopease_tools import order_lookup_tool, refund_processor_tool, inventory_check_tool
 from agents.crew_setup import create_agents, create_task
-from integrations.pathway_rag import retrieve_knowledge
+from integrations.mistral_client import retrieve_knowledge
 
 # Load environment
 load_dotenv()
 
-# Initialize LLM
-llm = ChatOpenAI(
-    model="gpt-4",
-    temperature=0.3,
-    openai_api_key=os.getenv("OPENAI_API_KEY")
+# Initialize LLM (Mistral runnable adapter)
+llm = MistralLLM(
+    endpoint=os.getenv("MISTRAL_ENDPOINT"),
+    api_key=os.getenv("MISTRAL_API_KEY"),
+    model_name=os.getenv("MISTRAL_MODEL", "mistral-7b"),
 )
 
 # Initialize components

@@ -4,10 +4,12 @@
 from crewai import Agent, Task, Crew, Process
 from integrations.mistral_client import MistralClient
 
-def create_agents():
-    """Create all specialized agents using MistralClient"""
-    # Instantiate single Mistral client for all agents
-    mistral = MistralClient(
+def create_agents(llm: object = None):
+    """Create all specialized agents using provided llm. If no llm is
+    provided, instantiate a default MistralClient.
+    """
+    # Use provided LLM client or fall back to default MistralClient
+    mistral = llm or MistralClient(
         endpoint="http://localhost:8000/v1/models/mistral-7b/infer"
     )
     
@@ -21,7 +23,7 @@ def create_agents():
         ),
         verbose=True,
         allow_delegation=True,
-        llm=mistral
+    llm=mistral
     )
     
     # Order Tracking Agent
